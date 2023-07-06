@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "llmdiscord"
+version = "0.1.0"
+description = ""
+authors = ["Mark Kamuda <mark.kamuda@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+discord = "2.3.1"
+langchain = "0.0.222"
+torch = {url = "https://download.pytorch.org/whl/cu118/torch-2.0.1%2Bcu118-cp39-cp39-win_amd64.whl"}
+xformers = "^0.0.20"
+transformers = "^4.30.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
